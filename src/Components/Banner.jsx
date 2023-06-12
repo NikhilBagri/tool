@@ -5,7 +5,7 @@ const Banner = () => {
   return (
     <section className="bg-[#17213A] h-screen  flex items-center justify-center">
       <div
-        className="relative bg-gray-800 rounded-xl py-10 px-8 md:py-16 md:px-12  "
+        className="relative bg-gray-800 md:rounded-xl  py-10 px-8 md:py-16 md:px-12  "
         data-aos="zoom-y-out"
       >
         <div className="relative flex flex-col lg:flex-row justify-between items-center">

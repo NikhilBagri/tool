@@ -4,7 +4,7 @@ import lms from '../Assets/lms.svg'
 const Lms = () => {
   return (
     <div id="contact" className="bg-[#FCF6F5] h-[700px] w-full flex flex-col md:flex-row items-center justify-center space-y-0 md:space-y-0">
-      <div className="w-fit md:w-[700px] mb-28 px-4 md:px-12 ">
+      <div className="max-w-[500px] md:mr-10 mb-28 px-5 md:px-0 ">
         <h1 className=" text-2xl md:text-6xl font-medium mb-4">
         Looking for Another LMS?
         </h1>
@@ -18,7 +18,7 @@ const Lms = () => {
           Contact Us
         </button>
       </div>
-      <div className="h-fit w-full md:w-[800px] mt-20 ">
+      <div className="h-fit w-full md:w-[800px] mt-20 px-5 md:px-0">
         <img src={lms} alt="header_img" />
       </div>
     </div>

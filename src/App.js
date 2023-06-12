@@ -9,7 +9,7 @@ import Lms from "./Components/Lms";
 import Main from "./Components/Main";
 // import SavedPage from "./Components/SavedPage";
 // import SignUp from "./Components/SignUp";
-// import Testimonials from "./Components/Testimonials";
+import Testimonials from "./Components/Testimonials";
 import Tools from "./Components/Tools";
 
 function App() {
@@ -20,7 +20,7 @@ function App() {
       <Features />
       <Tools />
       <Lms />
-      {/* <Testimonials /> */}
+      <Testimonials />
       <Banner />
       {/* <Contact /> */}
       {/* <SignUp/> */}
