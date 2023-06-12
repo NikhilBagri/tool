@@ -5,10 +5,10 @@ const Main = () => {
   return (
     <div
       id="home"
-      className=" min-h-screen bg-[#17213A] w-full flex flex-col md:flex-row items-center justify-center space-x-0 md:space-x-10 md:space-y-0 px-4"
+      className=" min-h-screen bg-[#17213A] w-full flex flex-col md:flex-row items-center justify-center space-x-0 md:space-x-10  px-4"
     >
       <div className="w-full md:w-[700px] mt-0 md:mt-32 mb-20 md:mb-0">
-        <h1 className="text-white text-2xl md:text-7xl font-medium mb-6 md:mb-10 mt-20 md:mt-0">
+        <h1 className="text-white text-2xl md:text-7xl font-medium mb-6 md:mb-10 md:mt-0">
           AI-Assisted Lesson Development
         </h1>
         <p className="text-gray-300 max-w-lg md:max-w-xl text-sm md:text-md">
